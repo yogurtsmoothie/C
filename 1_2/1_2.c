@@ -2,5 +2,5 @@
 
 int main()
 {
-	printf("%d", 100 - 50);
+	printf("%d", 1000 + 2000);
 }
