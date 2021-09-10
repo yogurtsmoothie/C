@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a, b;
+	int a, b, c;
 	int result;
 
 	printf("첫번째 계산할 값을 입력하세요 ==>");
@@ -11,15 +11,12 @@ int main()
 	printf("두번째 계산할 값을 입력하세요 ==>");
 	scanf_s("%d", &b);
 
-	result = a + b;
-	printf(" %d + %d = %d \n", a, b, result);
+	printf("세번째 계산할 값을 입력하세요 ==>");
+	scanf_s("%d", &c);
 
-	result = a - b;
-	printf(" %d - %d = %d \n", a, b, result);
+	result = a + b + c;
+	printf(" %d + %d + %d = %d \n", a, b, c, result);
 
-	result = a * b;
-	printf(" %d * %d = %d \n", a, b, result);
-
-	result = a / b;
-	printf(" %d / %d = %d \n", a, b, result);
+	result = a * b * c;
+	printf(" %d * %d * %d = %d \n", a, b, c, result);
 }
