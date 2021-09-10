@@ -3,6 +3,6 @@
 int main()
 {
 	int result;
-	result = 100 - 50;
+	result = 123 * 456;
 	printf("%d", result);
 }
