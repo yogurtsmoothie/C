@@ -5,8 +5,8 @@ int main()
 	int a, b;
 	int result;
 
-	a = 100;
-	b = 50;
+	a = 1234;
+	b = 456;
 
 	result = a + b;
 	printf(" %d + %d = %d \n", a, b, result);
