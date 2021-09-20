@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main()
 {
@@ -6,7 +6,7 @@ int main()
 
 	for (i = 2; i <= 9; i++)
 	{
-		printf("## Á¦ %d ´Ü ## \n", i);
+		printf("## ì œ %d ë‹¨ ## \n", i);
 		for (k = 1; k <= 9; k++)
 		{
 			printf(" %d X %d = %d \n", i, k, i*k);
