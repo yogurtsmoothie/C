@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main()
 {
 	int a = 99;
 
 	if (a < 100)
-		printf("100º¸´Ù ÀÛ±º¿ä..\n");
+		printf("100ë³´ë‹¤ ìž‘êµ°ìš”..\n");
 }
